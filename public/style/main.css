@@ -70,6 +70,10 @@ main>img{
     width: 40%;
 }
 
+#purple{
+    display: none;
+}
+
 
 form {
     display: grid;
