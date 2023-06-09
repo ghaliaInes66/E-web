@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color:var(--backgroundColor);
+    color: var(--textcolor)
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.light{
+    display: none;
+}
+
+img{
+    width: 25px;
+}
+
+
+header > nav {
+    background-color: var(--color);
+    color: #fff;
+    padding: 1rem;
+}
+
+header > nav > ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 100px 1fr 200px 100px 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+nav>button{
+    background-color: #fff;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+#mode {
+    grid-column: 3 / 4;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+}
+
+main>img{
+    margin: 50px;
+    width: 40%;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1rem;
+    padding: 1.5rem;
+    width: 25%;
+    margin:  100px  auto 0;
+    
+}
+
+form:hover{
+    opacity: 0.7;
+    border: solid 1px var(--color);
+    border-radius: 10px;
+    box-shadow: 00 10px 15px var(--color);
+}
+
+
+
+form > label {
+    display: block;
+}
+
+form > input {
+    padding: 0.5rem;
+    border: solid 1.5px var(--color);
+    border-radius: 10px;
+    background-color:var(--color);
+}   
+
+form > input:hover {
+    background-color: white;
+}
+
+
+form > input:focus {
+    outline: none;
+    background-color: white;
+}
+
+footer {
+    background-color:var(--color);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.page404 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page404 > img {
+    width: 100%;
+}

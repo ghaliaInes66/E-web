@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/main.css")
+        title landing page
+    body
+        header
+            nav
+                ul
+                    li
+                        a(href="/") Home
+                    li#mode
+                        button
+                            img(src="./images/moon.png").dark
+                            img(src="./images/light.png").light
+
+                    li
+                        a(href="/login") Login
+                    li
+                        a(href="/register") Register
+        main
+            h1 Welcome to the landing page
+            img(src="./images/blue.svg", alt="shopping")#blue
+            img(src="./images/purple.svg", alt="shopping")#purple
+        footer
+            p &copy; 2023
+        script(src="./js/mode.js")
