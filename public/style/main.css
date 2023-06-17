@@ -173,7 +173,7 @@ footer {
         display: inline-block;
         position: fixed;
         width: 40vw;
-        height: 20vh;
+        height: 25vh;
         z-index: 50;
         background-color:  var(--color);
         top: 0;
@@ -194,4 +194,9 @@ footer {
     form{
         width: 70%;
     }
+     
+    li{
+        padding: 10px;
+    }
+    
 }
