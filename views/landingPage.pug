@@ -8,7 +8,7 @@ html(lang="en")
         title landing page
     body
         header
-            nav
+            nav.desktopNav
                 ul
                     li
                         a(href="/") Home
@@ -21,6 +21,19 @@ html(lang="en")
                         a(href="/login") Login
                     li
                         a(href="/register") Register
+            nav.mobileNav
+                h3 Home
+
+                img(src="./images/menu-outline.svg", alt="menu").menuBtn
+        #menu 
+            ul
+                    li
+                        a(href="/") Home
+                    li
+                        a(href="/login") Login
+                    li
+                        a(href="/register") Register
+                
         main
             h1 Welcome to the landing page
             img(src="./images/blue.svg", alt="shopping")#blue
@@ -28,3 +41,4 @@ html(lang="en")
         footer
             p &copy; 2023
         script(src="./js/mode.js")
+        script(src="./js/landingPageImg")

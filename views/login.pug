@@ -8,7 +8,7 @@ html(lang="en")
         title login
     body 
         header
-            nav
+            nav.desktopNav
                 ul
                     li
                         a(href="/") Home
@@ -17,6 +17,18 @@ html(lang="en")
                             img(src="./images/moon.png").dark
                             img(src="./images/light.png").light
 
+                    li
+                        a(href="/login") Login
+                    li
+                        a(href="/register") Register
+            nav.mobileNav
+                h3 Login
+
+                img(src="./images/menu-outline.svg", alt="menu").menuBtn
+        #menu 
+            ul
+                    li
+                        a(href="/") Home
                     li
                         a(href="/login") Login
                     li
